@@ -1,0 +1,8 @@
+.recents::-webkit-scrollbar {
+display: none;
+}
+  
+.recents {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
