@@ -1,0 +1,25 @@
+.closed-more{
+    width: 4rem;
+    height: 4rem;
+    background-color: #80808080;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding: 1rem;
+}
+
+.closed-more:hover{
+    background-color: #80808090;
+}
+
+.open-more{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #80808080;
+    display: grid;
+    place-items: center;
+}
